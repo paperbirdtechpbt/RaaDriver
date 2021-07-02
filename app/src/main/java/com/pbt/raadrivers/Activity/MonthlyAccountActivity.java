@@ -307,6 +307,7 @@ public class MonthlyAccountActivity extends AppCompatActivity implements Connect
             Toast t = Toast.makeText(MonthlyAccountActivity.this, "You don't have read access !", Toast.LENGTH_LONG);
             t.show();
         } else {
+            //open Pdf
 
             Intent intent = new Intent(this, PDFViewActivity.class);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q)
