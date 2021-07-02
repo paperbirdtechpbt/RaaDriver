@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="SelectLanguageactivity">भाषा सेटिंग</string>
+    <string name="daily_account">दैनिक खाता</string>
+    <string name="monthaly_account">मासिक खाता</string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="alaccount">पहले से ही एक खाता है?</string>
+    <string name="authorizedparson">आप लॉगिन के लिए व्यवस्थापक से संपर्क करने के लिए अधिकृत नहीं हैं</string>
+    <string name="app_name">Raa</string>
+    <string name="cartype">कृपया कार प्रकार चुनें</string>
+    <string name="conditionofpackage">कृपया अपनी आईडी (आधार कार्ड, ड्राइविंग लाइसेंस या चुनाव कार्ड) केवल सुरक्षा उद्देश्य के लिए प्रदान करें यदि आपका भुगतान 10000 / - से अधिक हो।</string>
+    <string name="conpayment">भुगतान की पुष्टि करें</string>
+    <string name="conride">सवारी की पुष्टि करें</string>
+    <string name="tripamount">ट्रिप राशि नहीं मिली</string>
+    <string name="on_duty">आप ड्यूटी पर हैं!</string>
+    <string name="off_duty">आपकी ड्यूटी बंद है।</string>
+    <string name="cpass">पासवर्ड की पुष्टि कीजिये</string>
+    <string name="destination">गंतव्य</string>
+    <string name="error_time_before">समय कम से कम आधा घंटा से पहले होना चाहिए।!</string>
+    <string name="bookingdone">आपकी बुकिंग सफलतापूर्वक हुई!!</string>
+    <string name="allrequired">कृपया सभी आवश्यक फ़ील्ड भरें</string>
+    <string name="youAreNotUpdatedMessage">रा कैब सर्विस का एक नया संस्करण उपलब्ध है। कृपया बेहतर अनुभव के लिए पहले अपडेट करें</string>
+    <string name="destinationprovaid">कृपया गंतव्य प्रदान करें</string>
+    <string name="past">अतीत</string>
+    <string name="internet_not">RaaDarbar App : इंटरनेट काम नहीं कर रहा है</string>
+    <string name="enterriqiredfild">कृपया आवश्यक फ़ील्ड दर्ज करें</string>
+    <string name="upcoming">आगामी</string>
+    <string name="tripnotaveleble">कोई यात्रा उपलब्ध नहीं है</string>
+    <string name="dontaccount">खाता नहीं है?</string>
+    <string name="duty">कर्तव्य</string>
+    <string name="triptype">ट्रिप प्रकार</string>
+    <string name="emailadd">ईमेल पता</string>
+    <string name="emailandpass">कृपया ईमेल और पासवर्ड दर्ज करें</string>
+    <string name="emailvalid">कृपया मान्य ईमेल-आईडी दर्ज करें</string>
+    <string name="emialenter">ईमेल पता दर्ज</string>
+    <string name="eng">अंग्रेज़ी</string>
+    <string name="fare">के लिए किराया दर</string>
+    <string name="fname">पूरा नाम</string>
+    <string name="mname">मध्य नाम</string>
+    <string name="first_name">पहला नाम</string>
+    <string name="forgetpass">पासवर्ड भूल गए?</string>
+    <string name="forgetpassnew">पासवर्ड भूल गए</string>
+    <string name="forgetpasstext">अपने खाते से संबद्ध ईमेल पता दर्ज करें</string>
+    <string name="forspinnar">अपनी कार का चयन करें</string>
+    <string name="guja">गुजराती</string>
+    <string name="help">मदद</string>
+    <string name="conbooking">बुकिंग की पुष्टि करें</string>
+    <string name="helpeditstring">कृपया संदेश / प्रतिक्रिया दर्ज करें</string>
+    <string name="helpmsg">कृपया प्रतीक्षा करें कि हम आपके साथ 15 मिनट में वापस कॉल करेंगे</string>
+    <string name="helppage">रा - एप्लीकेशन सपोर्ट पेज</string>
+    <string name="helpstring">कृपया इस नंबर पर कॉल करें</string>
+    <string name="hindi">हिंदी</string>
+    <string name="incity">शहर में</string>
+    <string name="logoutstingfordriver" translatable="true">आप पूरी सवारी के बिना लॉग आउट नहीं कर सकते। अगर आपको कोई समस्या है तो एडमिन से बात करें.</string>
+    <string name="updatestringfordriver" translatable="true">आप पूरी सवारी के बिना ड्राइवर को सौंप नहीं सकते। अगर आपको कोई समस्या है तो एडमिन से बात करें.</string>
+    <string name="rental">किराये पर लेना</string>
+    <string name="incityselected">कृपया शहर में चयन करें</string>
+    <string name="jarny">आपकी जर्नी के बारे में है</string>
+    <string name="jarnyone">और आपकी यात्रा के आधार पर यह पैकेज डिफ़ॉल्ट रूप से चयनित है।</string>
+    <string name="lname">अंतिम नाम</string>
+    <string name="loginnow">अब प्रवेश करें!</string>
+    <string name="marathi">मराठी</string>
+    <string name="mobilenumber">अपना मोबाइल नंबर दर्ज करें</string>
+    <string name="nav_header_desc">नेविगेशन हेडर</string>
+    <string name="navigation_drawer_close">नेविगेशन ड्रॉअर बंद करें</string>
+    <string name="navigation_drawer_open">नेविगेशन दराज खोलें</string>
+    <string name="next">आगामी</string>
+    <string name="nocar">कोई कार उपलब्ध नहीं है</string>
+    <string name="outcity">शहर से बाहर</string>
+    <string name="outcityselected">कृपया आउट-सिटी चुनें</string>
+    <string name="pass">पासवर्ड</string>
+    <string name="paymentpage">भुगतान पृष्ठ</string>
+    <string name="pricediff">चयनित कार के लिए मूल्य अलग हैं</string>
+    <string name="profile">प्रोफाइल</string>
+    <string name="regnow">अभी पंजीकरण करें!</string>
+    <string name="startpoint">शुरुआत : </string>
+    <string name="endpoint">अंत का पता : </string>
+    <string name="custwaiting">कृपया आप के लिए कार की तलाश करते हुए प्रतीक्षा करें।</string>
+    <string name="resetlink">हम आपको अपना पासवर्ड रीसेट करने के लिए एक लिंक ईमेल करेंगे</string>
+    <string name="returntrip">वापसी यात्रा</string>
+    <string name="ridebook">अपनी सवारी बुक करें</string>
+    <string name="ridehi">सवारी का इतिहास</string>
+    <string name="ridehistry">सवारी का इतिहास</string>
+    <string name="ridenow">अभी चलो</string>
+    <string name="ridelater">बाद में सवारी करें</string>
+    <string name="selectcar">कार का चयन करें</string>
+    <string name="selectfuel">ईंधन प्रकार का चयन करें</string>
+    <string name="selectfueltype">पहले ईंधन प्रकार का चयन करें</string>
+    <string name="selectjou">यात्रा का चयन करें</string>
+    <string name="selectle">कृपया एप्लिकेशन के लिए भाषा का चयन करें</string>
+    <string name="selectvihicle">वाहन का चयन करें</string>
+    <string name="send">भेजें</string>
+    <string name="thankstext">सवारी के लिए धन्यवाद</string>
+    <string name="giveratinguser">उपयोगकर्ता रेटिंग दें</string>
+    <string name="signup">साइन अप करें</string>
+    <string name="signuptext">अपना व्यक्तिगत विवरण दर्ज करें और आज ही अपनी यात्रा शुरू करें</string>
+    <string name="singleway">सिंगल वे</string>
+    <string name="source">स्रोत (यदि आप डिफ़ॉल्ट वर्तमान स्थिति से इसे दर्ज नहीं करते हैं)</string>
+    <string name="succreg">सफल पंजीकरण</string>
+    <string name="title_activity_cust_home_page">मुखपृष्ठ</string>
+    <string name="title_activity_cutomore_map">नक्शा</string>
+    <string name="title_activity_select_pakeges">पृष्ठों का चयन करें</string>
+    <string name="training">प्रशिक्षण</string>
+    <string name="uploaddoc">अपना दस्तावेज़ अपलोड करें</string>
+    <string name="wiilbe">होगा</string>
+    <string name="Assign">सौंप दो</string>
+    <string name="back">वापस</string>
+    <string name="sure">क्या आप यह सुनिश्चित करना चाहते हैं</string>
+    <string name="confirmation">पुष्टीकरण</string>
+    <string name="clogout">आप लॉगआउट करने जा रहे हैं</string>
+    <string name="yourestimatedprice">आपका अनुमानित मूल्य</string>
+    <string name="driverinstractiuon" translatable="true">ट्रिप दूसरे ड्राइवर के पास गई</string>
+    <string name="endingtimepreselected" translatable="true">यात्रा के अंत समय निर्धारित करें</string>
+    <string name="statingtimepreselected" translatable="true">यात्रा का समय शुरू करें</string>
+
+    <string name="startkm" translatable="true">प्रारंभ किमी</string>
+    <string name="startotp" translatable="true">प्रारंभ ओ.टी.पी.</string>
+    <string name="endkm" translatable="true">अंतिम किमी</string>
+    <string name="talltax" translatable="true">टोल टैक्स</string>
+    <string name="bodertax" translatable="true">सीमा कर</string>
+    <string name="driverhold" translatable="true">चालक रात्रि पड़ाव दाम</string>
+    <string name="driverallowance" translatable="true">ड्राइवर भत्ता</string>
+    <string name="parmitioncharge" translatable="true">अनुमति शुल्क</string>
+    <string name="parkingchage" translatable="true">पार्किंग शुल्क</string>
+
+    <string name="missed_trip">छूटी ट्रिप</string>
+    <string name="assign_driver">ड्राइवर को सौंपें</string>
+    <string name="time_log">समय अभिलेख</string>
+    <string name="daily_acc">दैनिक खाता</string>
+    <string name="monthly_acc">मासिक खाता</string>
+    <string name="expand">विस्तार</string>
+    <string name="log_out">लॉग आउट</string>
+    <string name="switchcar">कार बदलो</string>
+    <string name="tagline">कीमत में उतार-चढ़ाव नहीं होगा। ड्राइवर रद्द नहीं कर सकता</string>
+    <string name="offer">ऑफर</string>
+    <string name="whyraadarbar">क्यों रादरबार?</string>
+    <string name="goodfeature">अच्छी सुविधाएँ</string>
+    <string name="refer">देखें और कमाएँ</string>
+    <string name="raa_wallet">रा वॉलेट</string>
+
+</resources>

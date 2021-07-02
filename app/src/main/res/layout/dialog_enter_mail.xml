@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/img_war"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textSize="@dimen/_16sdp"
+            android:src="@drawable/otp_bg" />
+
+        <RelativeLayout
+            android:id="@+id/mobile_number_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_42sdp"
+            android:layout_below="@+id/img_war"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:background="@drawable/shadow_view">
+
+
+            <com.pbt.raadrivers.Fonts.CTextView
+                android:id="@+id/mobile_no"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="@dimen/_6sdp"
+                android:drawableLeft="@drawable/ic_email"
+                android:gravity="center"
+                android:textSize="@dimen/_15sdp" />
+
+            <com.pbt.raadrivers.Fonts.CEditText
+                android:id="@+id/ed_mail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@+id/mobile_no"
+                android:background="@null"
+                android:hint="Enter Email"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:paddingStart="@dimen/_3sdp"
+                android:paddingEnd="@dimen/_3sdp"
+                android:textSize="@dimen/_15sdp" />
+        </RelativeLayout>
+
+        <com.pbt.raadrivers.Fonts.CButton
+            android:id="@+id/btn_verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_marginTop="0dp"
+            android:background="@color/appred"
+            android:clickable="true"
+            android:layout_below="@+id/mobile_number_layout"
+            android:text="Send OTP to Mail"
+            android:textAlignment="center"
+            android:textColor="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/_10sdp"
+            android:layout_below="@+id/btn_verify">
+
+            <com.pbt.raadrivers.Fonts.CTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/appred"
+                android:textStyle="bold"
+                android:text="Note :"/>
+
+        <CheckedTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingStart="@dimen/_2sdp"
+            android:text=" If mail not received in inbox then please check spam"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

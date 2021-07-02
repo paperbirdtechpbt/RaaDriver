@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="25dp"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <com.pbt.raadrivers.Fonts.CTextView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/giveratinguser"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/bleck" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:stepSize="1" />
+
+        <com.pbt.raadrivers.Fonts.CEditText
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minLines="4"
+            android:maxLength="250"
+            android:scrollbars="horizontal"
+            android:inputType="textMultiLine"
+            android:hint="Feedback Message" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.pbt.raadrivers.Fonts.CButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:id="@+id/submit"
+                android:layout_margin="15dp"
+                android:background="@drawable/submit_button_border"
+                android:textColor="@color/white"
+                android:text="Submit" />
+
+            <com.pbt.raadrivers.Fonts.CButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:id="@+id/skip"
+                android:layout_margin="15dp"
+                android:background="@drawable/button_border"
+                android:textColor="@color/white"
+                android:drawableRight="@drawable/skip"
+                android:visibility="gone"
+                android:text="Skip" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

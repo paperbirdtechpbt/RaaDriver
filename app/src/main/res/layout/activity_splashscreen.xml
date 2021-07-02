@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/raabg">
+
+    <com.pbt.raadrivers.Fonts.CTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jay Ma Bhavani"
+        android:textColor="@color/appred"
+        android:textSize="12dp"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/raalogo_white"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true" />
+
+        <com.pbt.raadrivers.Fonts.CTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/safety"
+            android:textColor="@color/spleshfontcolor"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/internetlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:gravity="center"
+            android:layout_margin="25dp">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/noconnection" />
+
+            <com.pbt.raadrivers.Fonts.CTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:text="Please start internet and restart"
+                android:textColor="@color/white"
+                android:textStyle="italic" />
+
+            <com.pbt.raadrivers.Fonts.CButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Close"
+                android:id="@+id/close"
+                android:textColor="@color/white"
+                android:background="@drawable/button_border" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="25dp"
+    android:orientation="vertical"
+    tools:context=".Activity.TripGoneToDrivarActivity">
+
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <com.pbt.raadrivers.Fonts.CTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/bleck"
+            android:gravity="center"
+            android:textSize="@dimen/_20sdp"
+            android:text="@string/driverinstractiuon" />
+
+        <com.pbt.raadrivers.Fonts.CButton
+            android:id="@+id/goback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_border"
+            android:text="@string/goback"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>

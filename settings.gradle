@@ -1,0 +1,2 @@
+include ':app', ':proswipebutton1'
+project(':proswipebutton1').projectDir = new File('proswipebutton')

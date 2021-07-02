@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Activity.AcceptRideActivity"
+    android:layout_margin="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <com.pbt.raadrivers.Fonts.CTextView
+            android:id="@+id/starttext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/startpoint"
+            android:textColor="@color/bleck"
+            android:textSize="18dp" />
+
+        <com.pbt.raadrivers.Fonts.CTextView
+            android:id="@+id/startaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:layout_margin="15dp"
+            android:textColor="@color/bleck"
+            android:textSize="15dp" />
+
+
+        <com.pbt.raadrivers.Fonts.CTextView
+            android:id="@+id/endtrext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="@string/endpoint"
+            android:textColor="@color/bleck"
+            android:textSize="18dp" />
+
+        <com.pbt.raadrivers.Fonts.CTextView
+            android:id="@+id/endaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:textStyle="normal"
+            android:gravity="center"
+            android:textColor="@color/bleck"
+            android:textSize="15dp" />
+
+        <com.pbt.raadrivers.Fonts.CTextView
+            android:id="@+id/triptext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="@string/triptype"
+            android:textColor="@color/bleck"
+            android:textSize="18dp" />
+
+        <com.pbt.raadrivers.Fonts.CTextView
+            android:id="@+id/triptype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:textColor="@color/bleck"
+            android:textSize="15dp"
+            android:textStyle="normal"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <com.pbt.raadrivers.Fonts.CTextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/bleck"
+            android:layout_marginBottom="15dp"
+            android:textSize="18dp" />
+
+        <in.shadowfax.proswipebutton.ProSwipeButton
+            android:id="@+id/accept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:arrow_color="@color/white"
+            app:bg_color="@color/startgreen"
+            app:btn_text="Start Trip " />
+    </LinearLayout>
+
+
+</RelativeLayout>

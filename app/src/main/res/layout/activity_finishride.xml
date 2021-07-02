@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.FinishRideActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp">
+
+
+        <ScrollView
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_above="@+id/endslider"
+            android:layout_height="wrap_content">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:padding="15dp"
+                android:orientation="vertical">
+
+                <com.pbt.raadrivers.Fonts.CTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/stratkm"
+                    android:textColor="@color/bleck"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="15dp"
+                    android:textSize="20dp" />
+
+
+                <com.pbt.raadrivers.Fonts.CTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/estimated_price"
+                    android:textColor="@color/bleck"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/stratkm"
+                    android:layout_marginBottom="15dp"
+                    android:textSize="20dp" />
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tinendotp"
+                    android:layout_below="@+id/estimated_price">
+
+                    <com.pbt.raadrivers.Fonts.CEditText
+                        android:id="@+id/endotp"
+                        android:visibility="gone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/endotp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tintxtTotalKm"
+                    android:layout_below="@+id/tinendotp">
+
+                    <com.pbt.raadrivers.Fonts.CEditText
+                        android:id="@+id/txtTotalKm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/enterkm" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tinendkm"
+                    android:layout_below="@+id/tintxtTotalKm">
+
+                    <com.pbt.raadrivers.Fonts.CEditText
+                        android:id="@+id/endkm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/endkm" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tintalltax"
+                    android:layout_below="@+id/tinendkm">
+
+                    <com.pbt.raadrivers.Fonts.CEditText
+                        android:id="@+id/talltax"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/talltax" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tinbodertax"
+                    android:layout_below="@+id/tintalltax">
+
+                    <com.pbt.raadrivers.Fonts.CEditText
+                        android:id="@+id/bodertax"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/bodertax" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tinparmitioncharge"
+                    android:layout_below="@+id/tinbodertax">
+
+                    <com.pbt.raadrivers.Fonts.CEditText
+                        android:id="@+id/parmitioncharge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/parmitioncharge" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tinparkingchage"
+                    android:layout_below="@+id/tinparmitioncharge">
+
+                    <com.pbt.raadrivers.Fonts.CEditText
+                        android:id="@+id/parkingchage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/parkingchage" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tindriverallowance"
+                    android:layout_below="@+id/tinparkingchage">
+
+                    <com.pbt.raadrivers.Fonts.CEditText
+                        android:id="@+id/driverallowance"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/driverallowance" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tindriverhold"
+                    android:layout_below="@+id/tindriverallowance">
+
+                    <com.pbt.raadrivers.Fonts.CEditText
+                        android:id="@+id/driverhold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="number"
+                        android:hint="@string/driverhold" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </RelativeLayout>
+        </ScrollView>
+
+        <in.shadowfax.proswipebutton.ProSwipeButton
+            android:id="@+id/endslider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="-7dp"
+            app:arrow_color="@color/white"
+            app:bg_color="@color/startgreen"
+            app:btn_text="Confirm Bill" />
+    </RelativeLayout>
+
+</LinearLayout>

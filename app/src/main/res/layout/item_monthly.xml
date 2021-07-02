@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.pbt.raadrivers.Fonts.CTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:layout_margin="10dp"
+    android:textColor="@color/bleck" />

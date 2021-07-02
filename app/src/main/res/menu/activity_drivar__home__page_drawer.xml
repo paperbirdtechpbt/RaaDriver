@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/duty" />
+        <item
+            android:id="@+id/daily_account"
+            android:icon="@drawable/dailyaccount"
+            android:title="@string/daily_account" />
+        <item
+            android:id="@+id/monthaly_account"
+            android:icon="@drawable/monthly_account"
+            android:title="@string/monthaly_account" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help"
+            android:title="@string/help" />
+        <item
+            android:id="@+id/settingride"
+            android:icon="@drawable/settings"
+            android:title="@string/action_settings" />
+        <item
+            android:id="@+id/trining"
+            android:icon="@drawable/training"
+            android:title="@string/training" />
+
+        <item
+            android:id="@+id/extratime"
+            android:icon="@drawable/ic_overtime"
+            android:title="@string/switchcar" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+        <!--<item-->
+        <!--android:id="@+id/virsionName"-->
+        <!--android:title="@string/versionName" />-->
+    </group>
+
+
+</menu>

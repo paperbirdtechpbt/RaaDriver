@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bleck">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="spleshfontcolor">#a57d6e</color>
+    <color name="grey">#868686</color>
+    <color name="dark_grey">#2B2929</color>
+    <color name="selectedcity">#96505c</color>
+    <color name="lightgreyone">#e7e7e7</color>
+    <color name="lightgrey">#9e9e9e</color>
+    <color name="yellow">#ffff00</color>
+    <color name="lightwhite">#f5f5f5</color>
+    <color name="blecktra">#95000000</color>
+    <color name="appred">#7f0a1d</color>
+    <color name="startgreen">#0ba62e</color>
+    <color name="slidred">#861326</color>
+    <color name="colorAccent">#ff6d00</color>
+    <color name="background_color">#f5f5f5</color>
+    <color name="blue">#FF1A90E9</color>
+    <color name="nav_submenubackground">#f4f4f4</color>
+
+</resources>

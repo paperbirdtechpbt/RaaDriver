@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/_40sdp"
+    android:paddingRight="@dimen/_40sdp"
+    tools:context=".Activity.TrainingActivity">
+
+    <com.pbt.raadrivers.Fonts.CTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coming Soon..."
+        android:textColor="@color/bleck"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <com.pbt.raadrivers.Fonts.CButton
+        android:id="@+id/part1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_toRightOf="@+id/textView1"
+        android:background="@drawable/trvideorounded"
+        android:text="Part 1"
+        android:textColor="@color/white" />
+
+    <com.pbt.raadrivers.Fonts.CButton
+        android:id="@+id/part2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:layout_toRightOf="@+id/textView1"
+        android:background="@drawable/trvideorounded"
+        android:text="Part 2"
+        android:textColor="@color/white" />
+</LinearLayout>
