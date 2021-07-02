@@ -22,7 +22,20 @@ public class PDFViewActivity extends AppCompatActivity {
         PDFView pdfView = (PDFView) findViewById(R.id.pdfView);
 //        URI pdfuri = URI.create("");
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+
         String pdfPath = getIntent().getExtras().getString("file");
         pdfView.fromUri(Uri.fromFile(new File(pdfPath))).load();
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        onBackPressed();
+        return true;
+    }
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
     }
 }
